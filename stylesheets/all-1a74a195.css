@@ -6836,3 +6836,22 @@ input {
 /* line 260, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
 .popover {
   color: #2C3E50; }
+
+/* line 10, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/all.scss */
+body {
+  padding-top: 70px;
+  padding-bottom: 30px; }
+
+/* line 15, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/all.scss */
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px; }
+
+/* line 21, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/all.scss */
+.theme-showcase > p > .btn {
+  margin: 5px 0; }
+
+/* line 25, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/all.scss */
+.theme-showcase .navbar .container {
+  width: auto; }
