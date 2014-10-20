@@ -1,8 +1,27 @@
 @charset "utf-8";
 
-
-
 @import "bootstrap-hel/variables";
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "bootstrap-hel/theme";
+
+// STYLES TO APPLY ON DEMO PAGE ONLY
+
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
