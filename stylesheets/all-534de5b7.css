@@ -309,8 +309,8 @@ th {
     border: 1px solid #ddd !important; } }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url("/fonts/bootstrap/glyphicons-halflings-regular.eot");
-  src: url("/fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("/fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("/fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("/fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
+  src: url("../fonts/bootstrap/glyphicons-halflings-regular-f3a9a3b6.eot");
+  src: url("../fonts/bootstrap/glyphicons-halflings-regular-f3a9a3b6.eot?#iefix") format("embedded-opentype"), url("../fonts/bootstrap/glyphicons-halflings-regular-22037a34.woff") format("woff"), url("../fonts/bootstrap/glyphicons-halflings-regular-aafafdc0.ttf") format("truetype"), url("../fonts/bootstrap/glyphicons-halflings-regular-3ef91859.svg#glyphicons_halflingsregular") format("svg"); }
 /* line 25, /Users/tero/.rvm/gems/ruby-2.0.0-p247/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon {
   position: relative;
