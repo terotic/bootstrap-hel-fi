@@ -1,11 +1,31 @@
 @charset "utf-8";
 
+@import "bootstrap-hel/hel-variables";
 @import "bootstrap-hel/variables";
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "bootstrap-hel/theme";
 
 // STYLES TO APPLY ON DEMO PAGE ONLY
+
+/*
+ 
+Regular	"ff-karbid-web-pro"	400	normal	
+ 
+Italic	"ff-karbid-web-pro"	400	italic	
+ 
+Bold	"ff-karbid-web-pro"	700	normal	
+ 
+Bold Italic	"ff-karbid-web-pro"	700	italic	
+ 
+Black	"ff-karbid-web-pro"	900	normal	
+ 
+Bold	"ff-karbid-slab-web-pro"	700	normal	
+
+*/
+
+
+
 
 body {
   padding-top: 70px;
