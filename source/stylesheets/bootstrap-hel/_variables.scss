@@ -15,8 +15,8 @@ $gray-light:             darken($black05,10%) !default;   // #999
 $gray-lighter:           $black05 !default; // #eee
 
 $brand-primary:         $blue50 !default;
-$brand-success:         $blue00 !default;
-$brand-info:            $yellow05 !default;
+$brand-success:         $green50 !default;
+$brand-info:            $blue00 !default;
 $brand-warning:         $yellow30 !default;
 $brand-danger:          $yellow00 !default;
 
@@ -28,10 +28,10 @@ $brand-danger:          $yellow00 !default;
 //** Background color for `<body>`.
 $body-bg:               #fff !default;
 //** Global text color on `<body>`.
-$text-color:            $brand-primary !default;
+$text-color:            $gray-dark !default;
 
 //** Global textual link color.
-$link-color:            $brand-success !default;
+$link-color:            $brand-primary !default;
 //** Link hover color set via `darken()` function.
 $link-hover-color:      $link-color !default;
 
@@ -42,8 +42,8 @@ $link-hover-color:      $link-color !default;
 
 $web-font: "//fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic";
 
-$font-family-sans-serif:  "ff-karbid-web-pro", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
-$font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
+$font-family-sans-serif:  "ff-karbid-web-pro","Helvetica Neue",Helvetica,Arial,sans-serif !default;
+$font-family-serif:       "ff-karbid-slab-web-pro",Helvetica,Arial,sans-serif !default;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
 $font-family-base:        $font-family-sans-serif !default;
@@ -66,9 +66,9 @@ $line-height-computed:    floor(($font-size-base * $line-height-base)) !default;
 
 //** By default, this inherits from the `<body>`.
 $headings-font-family:    $font-family-base !default;
-$headings-font-weight:    400 !default;
+$headings-font-weight:    $bold !default;
 $headings-line-height:    1.1 !default;
-$headings-color:          inherit !default;
+$headings-color:          $brand-primary !default;
 
 
 //== Iconography
@@ -101,9 +101,9 @@ $padding-xs-horizontal:     5px !default;
 $line-height-large:         1.33 !default;
 $line-height-small:         1.5 !default;
 
-$border-radius-base:        4px !default;
-$border-radius-large:       6px !default;
-$border-radius-small:       3px !default;
+$border-radius-base:        2px !default;
+$border-radius-large:       4px !default;
+$border-radius-small:       0px !default;
 
 //** Global color for active items (e.g., navs or dropdowns).
 $component-active-color:    #fff !default;
@@ -123,25 +123,25 @@ $caret-width-large:         5px !default;
 //** Padding for `<th>`s and `<td>`s.
 $table-cell-padding:            8px !default;
 //** Padding for cells in `.table-condensed`.
-$table-condensed-cell-padding:  5px !default;
+$table-condensed-cell-padding:  4px !default;
 
 //** Default background color used for all tables.
 $table-bg:                      transparent !default;
 //** Background color used for `.table-striped`.
-$table-bg-accent:               #f9f9f9 !default;
+$table-bg-accent:               $gray-lighter !default;
 //** Background color used for `.table-hover`.
-$table-bg-hover:                $gray-lighter !default;
+$table-bg-hover:                $gray-light !default;
 $table-bg-active:               $table-bg-hover !default;
 
 //** Border color for table and cell borders.
-$table-border-color:            $gray-lighter !default;
+$table-border-color:            $gray-light !default;
 
 
 //== Buttons
 //
 //## For each of Bootstrap's buttons, define text, background and border color.
 
-$btn-font-weight:                normal !default;
+$btn-font-weight:                $bold !default;
 
 $btn-default-color:              #fff !default;
 $btn-default-bg:                 $gray !default;
@@ -368,13 +368,13 @@ $navbar-padding-horizontal:        floor(($grid-gutter-width / 2)) !default;
 $navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2) !default;
 $navbar-collapse-max-height:       340px !default;
 
-$navbar-default-color:             #777 !default;
-$navbar-default-bg:                $brand-primary !default;
+$navbar-default-color:             $brand-info !default;
+$navbar-default-bg:                $gray-light !default;
 $navbar-default-border:            transparent !default;
 
 // Navbar links
-$navbar-default-link-color:                #fff !default;
-$navbar-default-link-hover-color:          $brand-success !default;
+$navbar-default-link-color:                $brand-info  !default;
+$navbar-default-link-hover-color:          $brand-primary !default;
 $navbar-default-link-hover-bg:             transparent !default;
 $navbar-default-link-active-color:         #fff !default;
 $navbar-default-link-active-bg:            darken($navbar-default-bg, 10%) !default;
@@ -395,12 +395,12 @@ $navbar-default-toggle-border-color:       darken($navbar-default-bg, 10%) !defa
 // Inverted navbar
 // Reset inverted navbar basics
 $navbar-inverse-color:                      #fff !default;
-$navbar-inverse-bg:                         $brand-success !default;
+$navbar-inverse-bg:                         $brand-primary !default;
 $navbar-inverse-border:                     transparent !default;
 
 // Inverted navbar links
 $navbar-inverse-link-color:                 #fff !default;
-$navbar-inverse-link-hover-color:           $brand-primary !default;
+$navbar-inverse-link-hover-color:           $brand-info !default;
 $navbar-inverse-link-hover-bg:              transparent !default;
 $navbar-inverse-link-active-color:          #fff !default;
 $navbar-inverse-link-active-bg:             darken($navbar-inverse-bg, 5%) !default;
@@ -432,15 +432,15 @@ $nav-disabled-link-hover-color:             $gray-light !default;
 $nav-open-link-hover-color:                 #fff !default;
 
 //== Tabs
-$nav-tabs-border-color:                     $gray-lighter !default;
+$nav-tabs-border-color:                     $gray-light !default;
 
-$nav-tabs-link-hover-border-color:          $gray-lighter !default;
+$nav-tabs-link-hover-border-color:          $gray-light !default;
 
 $nav-tabs-active-link-hover-bg:             $body-bg !default;
 $nav-tabs-active-link-hover-color:          $brand-primary !default;
-$nav-tabs-active-link-hover-border-color:   $gray-lighter !default;
+$nav-tabs-active-link-hover-border-color:   $gray-light !default;
 
-$nav-tabs-justified-link-border-color:            $gray-lighter !default;
+$nav-tabs-justified-link-border-color:            $gray-light !default;
 $nav-tabs-justified-active-link-border-color:     $body-bg !default;
 
 //== Pills
@@ -490,11 +490,11 @@ $pager-disabled-color:                 #fff !default;
 //
 //##
 
-$jumbotron-padding:              30px !default;
+$jumbotron-padding:              20px !default;
 $jumbotron-color:                inherit !default;
 $jumbotron-bg:                   $gray-lighter !default;
-$jumbotron-heading-color:        inherit !default;
-$jumbotron-font-size:            ceil(($font-size-base * 1.5)) !default;
+$jumbotron-heading-color:        $brand-primary !default;
+$jumbotron-font-size:            $font-size-base !default;
 
 
 //== Form states and alerts
@@ -716,8 +716,8 @@ $panel-inner-border:          $gray-lighter !default;
 $panel-footer-bg:             $gray-lighter !default;
 
 $panel-default-text:          $text-color !default;
-$panel-default-border:        $gray-lighter !default;
-$panel-default-heading-bg:    $gray-lighter !default;
+$panel-default-border:        $gray-light !default;
+$panel-default-heading-bg:    $gray-light !default;
 
 $panel-primary-text:          #fff !default;
 $panel-primary-border:        $brand-primary !default;

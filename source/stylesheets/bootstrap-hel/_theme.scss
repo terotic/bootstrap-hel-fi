@@ -27,8 +27,14 @@
 
 .navbar-brand {
   padding: 18.5px 15px 20.5px;
+  font-weight: $bold;
+    font-family: $font-family-serif;
 }
 // Buttons ====================================================================
+
+.btn-lg {
+  padding: 10px 20px;
+}
 
 .btn:active {
   @include box-shadow(none);
@@ -63,6 +69,10 @@
 .text-info,
 .text-info:hover {
   color: $brand-info;
+}
+
+.label {
+    padding: .2em .4em .2em .4em;
 }
 
 // Tables =====================================================================
@@ -222,6 +232,7 @@ input, {
 
 .alert {
 
+  font-family: $font-family-serif;
   .alert-link {
     color: #fff;
     text-decoration: underline;
@@ -239,6 +250,15 @@ input, {
   }
 }
 
+// List groups ==============================================================
+
+
+.list-group-item-heading {
+  text-transform: uppercase;
+  font-family: $font-family-serif; 
+}
+
+
 // Containers =================================================================
 
 .well {
@@ -250,6 +270,12 @@ input, {
     color: $text-color;
   }
 }
+
+.panel-title {
+  text-transform: uppercase;
+  font-family: $font-family-serif; 
+}
+
 
 .modal {
   .close {
