@@ -1146,7 +1146,7 @@ body {
   font-family: "ff-karbid-web-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 15px;
   line-height: 1.428571429;
-  color: #0072c6;
+  color: #191919;
   background-color: #fff; }
 
 /* line 36, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_scaffolding.scss */
@@ -1160,11 +1160,11 @@ textarea {
 
 /* line 48, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_scaffolding.scss */
 a {
-  color: #003380;
+  color: #0072c6;
   text-decoration: none; }
   /* line 52, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_scaffolding.scss */
   a:hover, a:focus {
-    color: #003380;
+    color: #0072c6;
     text-decoration: underline; }
   /* line 58, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_scaffolding.scss */
   a:focus {
@@ -1189,7 +1189,7 @@ img {
 
 /* line 86, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_scaffolding.scss */
 .img-rounded {
-  border-radius: 6px; }
+  border-radius: 4px; }
 
 /* line 93, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_scaffolding.scss */
 .img-thumbnail {
@@ -1197,7 +1197,7 @@ img {
   line-height: 1.428571429;
   background-color: #fff;
   border: 1px solid #f2f2f2;
-  border-radius: 4px;
+  border-radius: 2px;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -1241,9 +1241,9 @@ hr {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: "ff-karbid-web-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 1.1;
-  color: inherit; }
+  color: #0072c6; }
   /* line 16, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_type.scss */
   h1 small,
   h1 .small, h2 small,
@@ -1443,19 +1443,19 @@ a.bg-primary:hover {
 
 /* line 5, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 .bg-success {
-  background-color: #003380; }
+  background-color: #009c3d; }
 
 /* line 8, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 a.bg-success:hover {
-  background-color: #001f4d; }
+  background-color: #006929; }
 
 /* line 5, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 .bg-info {
-  background-color: #fefb8d; }
+  background-color: #003380; }
 
 /* line 8, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 a.bg-info:hover {
-  background-color: #fef95a; }
+  background-color: #001f4d; }
 
 /* line 5, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 .bg-warning {
@@ -1629,7 +1629,7 @@ code {
   font-size: 90%;
   color: #c7254e;
   background-color: #f9f2f4;
-  border-radius: 4px; }
+  border-radius: 2px; }
 
 /* line 24, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_code.scss */
 kbd {
@@ -1637,7 +1637,7 @@ kbd {
   font-size: 90%;
   color: #fff;
   background-color: #333;
-  border-radius: 3px;
+  border-radius: 0px;
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.25); }
   /* line 32, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_code.scss */
   kbd kbd {
@@ -1657,7 +1657,7 @@ pre {
   color: #191919;
   background-color: #f2f2f2;
   border: 1px solid #ccc;
-  border-radius: 4px; }
+  border-radius: 2px; }
   /* line 54, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_code.scss */
   pre code {
     padding: 0;
@@ -2586,11 +2586,11 @@ th {
     padding: 8px;
     line-height: 1.428571429;
     vertical-align: top;
-    border-top: 1px solid #f2f2f2; }
+    border-top: 1px solid #d8d8d8; }
   /* line 35, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_tables.scss */
   .table > thead > tr > th {
     vertical-align: bottom;
-    border-bottom: 2px solid #f2f2f2; }
+    border-bottom: 2px solid #d8d8d8; }
   /* line 44, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_tables.scss */
   .table > caption + thead > tr:first-child > th,
   .table > caption + thead > tr:first-child > td,
@@ -2601,7 +2601,7 @@ th {
     border-top: 0; }
   /* line 51, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_tables.scss */
   .table > tbody + tbody {
-    border-top: 2px solid #f2f2f2; }
+    border-top: 2px solid #d8d8d8; }
   /* line 56, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_tables.scss */
   .table .table {
     background-color: #fff; }
@@ -2613,11 +2613,11 @@ th {
 .table-condensed > tbody > tr > td,
 .table-condensed > tfoot > tr > th,
 .table-condensed > tfoot > tr > td {
-  padding: 5px; }
+  padding: 4px; }
 
 /* line 82, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_tables.scss */
 .table-bordered {
-  border: 1px solid #f2f2f2; }
+  border: 1px solid #d8d8d8; }
   /* line 88, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_tables.scss */
   .table-bordered > thead > tr > th,
   .table-bordered > thead > tr > td,
@@ -2625,7 +2625,7 @@ th {
   .table-bordered > tbody > tr > td,
   .table-bordered > tfoot > tr > th,
   .table-bordered > tfoot > tr > td {
-    border: 1px solid #f2f2f2; }
+    border: 1px solid #d8d8d8; }
   /* line 95, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_tables.scss */
   .table-bordered > thead > tr > th,
   .table-bordered > thead > tr > td {
@@ -2634,12 +2634,12 @@ th {
 /* line 109, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_tables.scss */
 .table-striped > tbody > tr:nth-child(odd) > td,
 .table-striped > tbody > tr:nth-child(odd) > th {
-  background-color: #f9f9f9; }
+  background-color: #f2f2f2; }
 
 /* line 123, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_tables.scss */
 .table-hover > tbody > tr:hover > td,
 .table-hover > tbody > tr:hover > th {
-  background-color: #f2f2f2; }
+  background-color: #d8d8d8; }
 
 /* line 135, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_tables.scss */
 table col[class*="col-"] {
@@ -2665,12 +2665,12 @@ table th[class*="col-"] {
 .table > tfoot > tr > th.active,
 .table > tfoot > tr.active > td,
 .table > tfoot > tr.active > th {
-  background-color: #f2f2f2; }
+  background-color: #d8d8d8; }
 
 /* line 20, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_table-row.scss */
 .table-hover > tbody > tr > td.active:hover,
 .table-hover > tbody > tr > th.active:hover, .table-hover > tbody > tr.active:hover > td, .table-hover > tbody > tr:hover > .active, .table-hover > tbody > tr.active:hover > th {
-  background-color: #e5e5e5; }
+  background-color: #cccccc; }
 
 /* line 9, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_table-row.scss */
 .table > thead > tr > td.success,
@@ -2683,12 +2683,12 @@ table th[class*="col-"] {
 .table > tfoot > tr > th.success,
 .table > tfoot > tr.success > td,
 .table > tfoot > tr.success > th {
-  background-color: #003380; }
+  background-color: #009c3d; }
 
 /* line 20, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_table-row.scss */
 .table-hover > tbody > tr > td.success:hover,
 .table-hover > tbody > tr > th.success:hover, .table-hover > tbody > tr.success:hover > td, .table-hover > tbody > tr:hover > .success, .table-hover > tbody > tr.success:hover > th {
-  background-color: #002967; }
+  background-color: #008333; }
 
 /* line 9, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_table-row.scss */
 .table > thead > tr > td.info,
@@ -2701,12 +2701,12 @@ table th[class*="col-"] {
 .table > tfoot > tr > th.info,
 .table > tfoot > tr.info > td,
 .table > tfoot > tr.info > th {
-  background-color: #fefb8d; }
+  background-color: #003380; }
 
 /* line 20, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_table-row.scss */
 .table-hover > tbody > tr > td.info:hover,
 .table-hover > tbody > tr > th.info:hover, .table-hover > tbody > tr.info:hover > td, .table-hover > tbody > tr:hover > .info, .table-hover > tbody > tr.info:hover > th {
-  background-color: #fefa74; }
+  background-color: #002967; }
 
 /* line 9, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_table-row.scss */
 .table > thead > tr > td.warning,
@@ -2752,7 +2752,7 @@ table th[class*="col-"] {
     overflow-y: hidden;
     overflow-x: auto;
     -ms-overflow-style: -ms-autohiding-scrollbar;
-    border: 1px solid #f2f2f2;
+    border: 1px solid #d8d8d8;
     -webkit-overflow-scrolling: touch; }
     /* line 182, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_tables.scss */
     .table-responsive > .table {
@@ -2806,7 +2806,7 @@ legend {
   margin-bottom: 21px;
   font-size: 22.5px;
   line-height: inherit;
-  color: #0072c6;
+  color: #191919;
   border: 0;
   border-bottom: 1px solid transparent; }
 
@@ -2858,7 +2858,7 @@ output {
   padding-top: 11px;
   font-size: 15px;
   line-height: 1.428571429;
-  color: #0072c6; }
+  color: #191919; }
 
 /* line 115, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_forms.scss */
 .form-control {
@@ -2868,11 +2868,11 @@ output {
   padding: 10px 15px;
   font-size: 15px;
   line-height: 1.428571429;
-  color: #0072c6;
+  color: #191919;
   background-color: #fff;
   background-image: none;
   border: 1px solid #dce4ec;
-  border-radius: 4px;
+  border-radius: 2px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
@@ -3047,7 +3047,7 @@ input[type="checkbox"] {
   padding: 6px 9px;
   font-size: 13px;
   line-height: 1.5;
-  border-radius: 3px; }
+  border-radius: 0px; }
 
 /* line 75, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_forms.scss */
 select.input-sm, .form-horizontal .form-group-sm select.form-control, .input-group-sm > select.form-control,
@@ -3075,7 +3075,7 @@ select[multiple].input-sm,
   padding: 18px 27px;
   font-size: 19px;
   line-height: 1.33;
-  border-radius: 6px; }
+  border-radius: 4px; }
 
 /* line 75, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_forms.scss */
 select.input-lg, .form-horizontal .form-group-lg select.form-control, .input-group-lg > select.form-control,
@@ -3152,7 +3152,7 @@ select[multiple].input-lg,
 .has-success .input-group-addon {
   color: #fff;
   border-color: #fff;
-  background-color: #003380; }
+  background-color: #009c3d; }
 /* line 33, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_forms.scss */
 .has-success .form-control-feedback {
   color: #fff; }
@@ -3220,7 +3220,7 @@ select[multiple].input-lg,
   display: block;
   margin-top: 5px;
   margin-bottom: 10px;
-  color: #47b1ff; }
+  color: #595959; }
 
 @media (min-width: 768px) {
   /* line 400, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_forms.scss */
@@ -3320,7 +3320,7 @@ select[multiple].input-lg,
 .btn {
   display: inline-block;
   margin-bottom: 0;
-  font-weight: normal;
+  font-weight: 700;
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
@@ -3330,7 +3330,7 @@ select[multiple].input-lg,
   padding: 10px 15px;
   font-size: 15px;
   line-height: 1.428571429;
-  border-radius: 4px;
+  border-radius: 2px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -3406,45 +3406,45 @@ select[multiple].input-lg,
 /* line 64, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-success {
   color: #fff;
-  background-color: #003380;
-  border-color: #003380; }
+  background-color: #009c3d;
+  border-color: #009c3d; }
   /* line 11, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open > .btn-success.dropdown-toggle {
     color: #fff;
-    background-color: #001f4d;
-    border-color: #001b43; }
+    background-color: #006929;
+    border-color: #005f25; }
   /* line 20, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-success:active, .btn-success.active, .open > .btn-success.dropdown-toggle {
     background-image: none; }
   /* line 28, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-success.disabled, .btn-success.disabled:hover, .btn-success.disabled:focus, .btn-success.disabled:active, .btn-success.disabled.active, .btn-success[disabled], .btn-success[disabled]:hover, .btn-success[disabled]:focus, .btn-success[disabled]:active, .btn-success[disabled].active, fieldset[disabled] .btn-success, fieldset[disabled] .btn-success:hover, fieldset[disabled] .btn-success:focus, fieldset[disabled] .btn-success:active, fieldset[disabled] .btn-success.active {
-    background-color: #003380;
-    border-color: #003380; }
+    background-color: #009c3d;
+    border-color: #009c3d; }
   /* line 38, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-success .badge {
-    color: #003380;
+    color: #009c3d;
     background-color: #fff; }
 
 /* line 68, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-info {
   color: #fff;
-  background-color: #fefb8d;
-  border-color: #fefb8d; }
+  background-color: #003380;
+  border-color: #003380; }
   /* line 11, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .open > .btn-info.dropdown-toggle {
     color: #fff;
-    background-color: #fef95a;
-    border-color: #fdf950; }
+    background-color: #001f4d;
+    border-color: #001b43; }
   /* line 20, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-info:active, .btn-info.active, .open > .btn-info.dropdown-toggle {
     background-image: none; }
   /* line 28, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-info.disabled, .btn-info.disabled:hover, .btn-info.disabled:focus, .btn-info.disabled:active, .btn-info.disabled.active, .btn-info[disabled], .btn-info[disabled]:hover, .btn-info[disabled]:focus, .btn-info[disabled]:active, .btn-info[disabled].active, fieldset[disabled] .btn-info, fieldset[disabled] .btn-info:hover, fieldset[disabled] .btn-info:focus, fieldset[disabled] .btn-info:active, fieldset[disabled] .btn-info.active {
-    background-color: #fefb8d;
-    border-color: #fefb8d; }
+    background-color: #003380;
+    border-color: #003380; }
   /* line 38, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-info .badge {
-    color: #fefb8d;
+    color: #003380;
     background-color: #fff; }
 
 /* line 72, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_buttons.scss */
@@ -3493,7 +3493,7 @@ select[multiple].input-lg,
 
 /* line 85, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-link {
-  color: #003380;
+  color: #0072c6;
   font-weight: normal;
   cursor: pointer;
   border-radius: 0; }
@@ -3507,7 +3507,7 @@ select[multiple].input-lg,
     border-color: transparent; }
   /* line 104, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_buttons.scss */
   .btn-link:hover, .btn-link:focus {
-    color: #003380;
+    color: #0072c6;
     text-decoration: underline;
     background-color: transparent; }
   /* line 112, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_buttons.scss */
@@ -3520,21 +3520,21 @@ select[multiple].input-lg,
   padding: 18px 27px;
   font-size: 19px;
   line-height: 1.33;
-  border-radius: 6px; }
+  border-radius: 4px; }
 
 /* line 128, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-sm, .btn-group-sm > .btn {
   padding: 6px 9px;
   font-size: 13px;
   line-height: 1.5;
-  border-radius: 3px; }
+  border-radius: 0px; }
 
 /* line 132, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-xs, .btn-group-xs > .btn {
   padding: 1px 5px;
   font-size: 13px;
   line-height: 1.5;
-  border-radius: 3px; }
+  border-radius: 0px; }
 
 /* line 140, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-block {
@@ -3621,7 +3621,7 @@ tbody.collapse.in {
   background-color: #fff;
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+  border-radius: 2px;
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   background-clip: padding-box; }
@@ -3887,12 +3887,12 @@ tbody.collapse.in {
   border-radius: 0; }
 /* line 178, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_button-groups.scss */
 .btn-group-vertical > .btn:first-child:not(:last-child) {
-  border-top-right-radius: 4px;
+  border-top-right-radius: 2px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0; }
 /* line 182, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_button-groups.scss */
 .btn-group-vertical > .btn:last-child:not(:first-child) {
-  border-bottom-left-radius: 4px;
+  border-bottom-left-radius: 2px;
   border-top-right-radius: 0;
   border-top-left-radius: 0; }
 
@@ -3980,25 +3980,25 @@ tbody.collapse.in {
   font-size: 15px;
   font-weight: normal;
   line-height: 1;
-  color: #0072c6;
+  color: #191919;
   text-align: center;
   background-color: #f2f2f2;
   border: 1px solid #dce4ec;
-  border-radius: 4px; }
+  border-radius: 2px; }
   /* line 85, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_input-groups.scss */
   .input-group-addon.input-sm, .form-horizontal .form-group-sm .input-group-addon.form-control,
   .input-group-sm > .input-group-addon,
   .input-group-sm > .input-group-btn > .input-group-addon.btn {
     padding: 6px 9px;
     font-size: 13px;
-    border-radius: 3px; }
+    border-radius: 0px; }
   /* line 90, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_input-groups.scss */
   .input-group-addon.input-lg, .form-horizontal .form-group-lg .input-group-addon.form-control,
   .input-group-lg > .input-group-addon,
   .input-group-lg > .input-group-btn > .input-group-addon.btn {
     padding: 18px 27px;
     font-size: 19px;
-    border-radius: 6px; }
+    border-radius: 4px; }
   /* line 97, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_input-groups.scss */
   .input-group-addon input[type="radio"],
   .input-group-addon input[type="checkbox"] {
@@ -4094,7 +4094,7 @@ tbody.collapse.in {
   /* line 46, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navs.scss */
   .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
     background-color: #f2f2f2;
-    border-color: #003380; }
+    border-color: #0072c6; }
   /* line 59, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navs.scss */
   .nav .nav-divider {
     height: 1px;
@@ -4107,7 +4107,7 @@ tbody.collapse.in {
 
 /* line 76, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navs.scss */
 .nav-tabs {
-  border-bottom: 1px solid #f2f2f2; }
+  border-bottom: 1px solid #d8d8d8; }
   /* line 78, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navs.scss */
   .nav-tabs > li {
     float: left;
@@ -4117,15 +4117,15 @@ tbody.collapse.in {
       margin-right: 2px;
       line-height: 1.428571429;
       border: 1px solid transparent;
-      border-radius: 4px 4px 0 0; }
+      border-radius: 2px 2px 0 0; }
       /* line 89, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navs.scss */
       .nav-tabs > li > a:hover {
-        border-color: #f2f2f2 #f2f2f2 #f2f2f2; }
+        border-color: #d8d8d8 #d8d8d8 #d8d8d8; }
     /* line 96, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navs.scss */
     .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
       color: #0072c6;
       background-color: #fff;
-      border: 1px solid #f2f2f2;
+      border: 1px solid #d8d8d8;
       border-bottom-color: transparent;
       cursor: default; }
 
@@ -4134,7 +4134,7 @@ tbody.collapse.in {
   float: left; }
   /* line 122, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navs.scss */
   .nav-pills > li > a {
-    border-radius: 4px; }
+    border-radius: 2px; }
   /* line 125, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navs.scss */
   .nav-pills > li + li {
     margin-left: 2px; }
@@ -4180,19 +4180,19 @@ tbody.collapse.in {
   /* line 193, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navs.scss */
   .nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
     margin-right: 0;
-    border-radius: 4px; }
+    border-radius: 2px; }
   /* line 199, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navs.scss */
   .nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a,
   .nav-tabs-justified > .active > a:hover,
   .nav-tabs.nav-justified > .active > a:hover,
   .nav-tabs-justified > .active > a:focus,
   .nav-tabs.nav-justified > .active > a:focus {
-    border: 1px solid #f2f2f2; }
+    border: 1px solid #d8d8d8; }
   @media (min-width: 768px) {
     /* line 206, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navs.scss */
     .nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
-      border-bottom: 1px solid #f2f2f2;
-      border-radius: 4px 4px 0 0; }
+      border-bottom: 1px solid #d8d8d8;
+      border-radius: 2px 2px 0 0; }
     /* line 210, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navs.scss */
     .nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a,
     .nav-tabs-justified > .active > a:hover,
@@ -4230,7 +4230,7 @@ tbody.collapse.in {
   @media (min-width: 768px) {
     /* line 11, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar {
-      border-radius: 4px; } }
+      border-radius: 2px; } }
 
 /* line 14, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
 .navbar-header:before, .navbar-header:after {
@@ -4369,7 +4369,7 @@ tbody.collapse.in {
   background-color: transparent;
   background-image: none;
   border: 1px solid transparent;
-  border-radius: 4px; }
+  border-radius: 2px; }
   /* line 203, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-toggle:focus {
     outline: 0; }
@@ -4509,39 +4509,39 @@ tbody.collapse.in {
 
 /* line 394, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default {
-  background-color: #0072c6;
+  background-color: #d8d8d8;
   border-color: transparent; }
   /* line 398, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-brand {
-    color: #fff; }
+    color: #003380; }
     /* line 400, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-      color: #003380;
+      color: #0072c6;
       background-color: transparent; }
   /* line 407, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-text {
-    color: #777; }
+    color: #003380; }
   /* line 412, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav > li > a {
-    color: #fff; }
+    color: #003380; }
     /* line 415, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-      color: #003380;
+      color: #0072c6;
       background-color: transparent; }
   /* line 422, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     color: #fff;
-    background-color: #005593; }
+    background-color: #bfbfbf; }
   /* line 430, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:hover, .navbar-default .navbar-nav > .disabled > a:focus {
     color: #ccc;
     background-color: transparent; }
   /* line 439, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-toggle {
-    border-color: #005593; }
+    border-color: #bfbfbf; }
     /* line 441, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-      background-color: #005593; }
+      background-color: #bfbfbf; }
     /* line 445, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-default .navbar-toggle .icon-bar {
       background-color: #fff; }
@@ -4551,50 +4551,50 @@ tbody.collapse.in {
     border-color: transparent; }
   /* line 459, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-    background-color: #005593;
+    background-color: #bfbfbf;
     color: #fff; }
   @media (max-width: 767px) {
     /* line 470, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-      color: #fff; }
+      color: #003380; }
       /* line 472, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
       .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-        color: #003380;
+        color: #0072c6;
         background-color: transparent; }
     /* line 479, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
       color: #fff;
-      background-color: #005593; }
+      background-color: #bfbfbf; }
     /* line 487, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
       color: #ccc;
       background-color: transparent; } }
   /* line 503, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-link {
-    color: #fff; }
+    color: #003380; }
     /* line 505, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-default .navbar-link:hover {
-      color: #003380; }
+      color: #0072c6; }
   /* line 510, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .btn-link {
-    color: #fff; }
+    color: #003380; }
     /* line 512, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-default .btn-link:hover, .navbar-default .btn-link:focus {
-      color: #003380; }
+      color: #0072c6; }
     /* line 518, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-default .btn-link[disabled]:hover, .navbar-default .btn-link[disabled]:focus, fieldset[disabled] .navbar-default .btn-link:hover, fieldset[disabled] .navbar-default .btn-link:focus {
       color: #ccc; }
 
 /* line 528, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse {
-  background-color: #003380;
+  background-color: #0072c6;
   border-color: transparent; }
   /* line 532, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-brand {
     color: #fff; }
     /* line 534, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
-      color: #0072c6;
+      color: #003380;
       background-color: transparent; }
   /* line 541, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-text {
@@ -4604,32 +4604,32 @@ tbody.collapse.in {
     color: #fff; }
     /* line 549, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-      color: #0072c6;
+      color: #003380;
       background-color: transparent; }
   /* line 556, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
     color: #fff;
-    background-color: #002967; }
+    background-color: #0063ad; }
   /* line 564, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav > .disabled > a, .navbar-inverse .navbar-nav > .disabled > a:hover, .navbar-inverse .navbar-nav > .disabled > a:focus {
     color: #ccc;
     background-color: transparent; }
   /* line 574, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-toggle {
-    border-color: #001f4d; }
+    border-color: #005593; }
     /* line 576, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-      background-color: #001f4d; }
+      background-color: #005593; }
     /* line 580, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-inverse .navbar-toggle .icon-bar {
       background-color: #fff; }
   /* line 585, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-collapse,
   .navbar-inverse .navbar-form {
-    border-color: #00255c; }
+    border-color: #005da2; }
   /* line 593, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-    background-color: #002967;
+    background-color: #0063ad;
     color: #fff; }
   @media (max-width: 767px) {
     /* line 604, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
@@ -4643,12 +4643,12 @@ tbody.collapse.in {
       color: #fff; }
       /* line 612, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
       .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
-        color: #0072c6;
+        color: #003380;
         background-color: transparent; }
     /* line 619, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
       color: #fff;
-      background-color: #002967; }
+      background-color: #0063ad; }
     /* line 627, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
       color: #ccc;
@@ -4658,13 +4658,13 @@ tbody.collapse.in {
     color: #fff; }
     /* line 640, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-inverse .navbar-link:hover {
-      color: #0072c6; }
+      color: #003380; }
   /* line 645, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-inverse .btn-link {
     color: #fff; }
     /* line 647, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-inverse .btn-link:hover, .navbar-inverse .btn-link:focus {
-      color: #0072c6; }
+      color: #003380; }
     /* line 653, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-inverse .btn-link[disabled]:hover, .navbar-inverse .btn-link[disabled]:focus, fieldset[disabled] .navbar-inverse .btn-link:hover, fieldset[disabled] .navbar-inverse .btn-link:focus {
       color: #ccc; }
@@ -4675,7 +4675,7 @@ tbody.collapse.in {
   margin-bottom: 21px;
   list-style: none;
   background-color: #f2f2f2;
-  border-radius: 4px; }
+  border-radius: 2px; }
   /* line 13, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_breadcrumbs.scss */
   .breadcrumb > li {
     display: inline-block; }
@@ -4693,7 +4693,7 @@ tbody.collapse.in {
   display: inline-block;
   padding-left: 0;
   margin: 21px 0;
-  border-radius: 4px; }
+  border-radius: 2px; }
   /* line 10, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_pagination.scss */
   .pagination > li {
     display: inline; }
@@ -4706,26 +4706,26 @@ tbody.collapse.in {
       line-height: 1.428571429;
       text-decoration: none;
       color: #fff;
-      background-color: #003380;
+      background-color: #009c3d;
       border: 1px solid transparent;
       margin-left: -1px; }
     /* line 25, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_pagination.scss */
     .pagination > li:first-child > a,
     .pagination > li:first-child > span {
       margin-left: 0;
-      border-bottom-left-radius: 4px;
-      border-top-left-radius: 4px; }
+      border-bottom-left-radius: 2px;
+      border-top-left-radius: 2px; }
     /* line 32, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_pagination.scss */
     .pagination > li:last-child > a,
     .pagination > li:last-child > span {
-      border-bottom-right-radius: 4px;
-      border-top-right-radius: 4px; }
+      border-bottom-right-radius: 2px;
+      border-top-right-radius: 2px; }
   /* line 41, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_pagination.scss */
   .pagination > li > a:hover, .pagination > li > a:focus,
   .pagination > li > span:hover,
   .pagination > li > span:focus {
     color: #fff;
-    background-color: #001534;
+    background-color: #00501f;
     border-color: transparent; }
   /* line 51, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_pagination.scss */
   .pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus,
@@ -4734,7 +4734,7 @@ tbody.collapse.in {
   .pagination > .active > span:focus {
     z-index: 2;
     color: #fff;
-    background-color: #001534;
+    background-color: #00501f;
     border-color: transparent;
     cursor: default; }
   /* line 63, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_pagination.scss */
@@ -4745,7 +4745,7 @@ tbody.collapse.in {
   .pagination > .disabled > a:hover,
   .pagination > .disabled > a:focus {
     color: #f2f2f2;
-    background-color: #0051cc;
+    background-color: #00e95b;
     border-color: transparent;
     cursor: not-allowed; }
 
@@ -4757,13 +4757,13 @@ tbody.collapse.in {
 /* line 11, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_pagination.scss */
 .pagination-lg > li:first-child > a,
 .pagination-lg > li:first-child > span {
-  border-bottom-left-radius: 6px;
-  border-top-left-radius: 6px; }
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px; }
 /* line 17, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_pagination.scss */
 .pagination-lg > li:last-child > a,
 .pagination-lg > li:last-child > span {
-  border-bottom-right-radius: 6px;
-  border-top-right-radius: 6px; }
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px; }
 
 /* line 5, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_pagination.scss */
 .pagination-sm > li > a,
@@ -4773,13 +4773,13 @@ tbody.collapse.in {
 /* line 11, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_pagination.scss */
 .pagination-sm > li:first-child > a,
 .pagination-sm > li:first-child > span {
-  border-bottom-left-radius: 3px;
-  border-top-left-radius: 3px; }
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px; }
 /* line 17, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_pagination.scss */
 .pagination-sm > li:last-child > a,
 .pagination-sm > li:last-child > span {
-  border-bottom-right-radius: 3px;
-  border-top-right-radius: 3px; }
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px; }
 
 /* line 6, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_pager.scss */
 .pager {
@@ -4802,14 +4802,14 @@ tbody.collapse.in {
     .pager li > span {
       display: inline-block;
       padding: 5px 14px;
-      background-color: #003380;
+      background-color: #009c3d;
       border: 1px solid transparent;
       border-radius: 15px; }
     /* line 23, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_pager.scss */
     .pager li > a:hover,
     .pager li > a:focus {
       text-decoration: none;
-      background-color: #001534; }
+      background-color: #00501f; }
   /* line 31, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_pager.scss */
   .pager .next > a,
   .pager .next > span {
@@ -4824,7 +4824,7 @@ tbody.collapse.in {
   .pager .disabled > a:focus,
   .pager .disabled > span {
     color: #fff;
-    background-color: #003380;
+    background-color: #009c3d;
     cursor: not-allowed; }
 
 /* line 5, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_labels.scss */
@@ -4869,17 +4869,17 @@ a.label:hover, a.label:focus {
 
 /* line 52, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_labels.scss */
 .label-success {
-  background-color: #003380; }
+  background-color: #009c3d; }
   /* line 7, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_labels.scss */
   .label-success[href]:hover, .label-success[href]:focus {
-    background-color: #001f4d; }
+    background-color: #006929; }
 
 /* line 56, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_labels.scss */
 .label-info {
-  background-color: #fefb8d; }
+  background-color: #003380; }
   /* line 7, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_labels.scss */
   .label-info[href]:hover, .label-info[href]:focus {
-    background-color: #fef95a; }
+    background-color: #001f4d; }
 
 /* line 60, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_labels.scss */
 .label-warning {
@@ -4936,37 +4936,37 @@ a.badge:hover, a.badge:focus {
 
 /* line 6, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_jumbotron.scss */
 .jumbotron {
-  padding: 30px;
-  margin-bottom: 30px;
+  padding: 20px;
+  margin-bottom: 20px;
   color: inherit;
   background-color: #f2f2f2; }
   /* line 12, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_jumbotron.scss */
   .jumbotron h1,
   .jumbotron .h1 {
-    color: inherit; }
+    color: #0072c6; }
   /* line 16, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_jumbotron.scss */
   .jumbotron p {
-    margin-bottom: 15px;
-    font-size: 23px;
+    margin-bottom: 10px;
+    font-size: 15px;
     font-weight: 200; }
   /* line 22, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_jumbotron.scss */
   .jumbotron > hr {
     border-top-color: #d8d8d8; }
   /* line 26, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_jumbotron.scss */
   .container .jumbotron {
-    border-radius: 6px; }
+    border-radius: 4px; }
   /* line 30, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_jumbotron.scss */
   .jumbotron .container {
     max-width: 100%; }
   @media screen and (min-width: 768px) {
     /* line 6, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_jumbotron.scss */
     .jumbotron {
-      padding-top: 48px;
-      padding-bottom: 48px; }
+      padding-top: 32px;
+      padding-bottom: 32px; }
       /* line 38, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_jumbotron.scss */
       .container .jumbotron {
-        padding-left: 60px;
-        padding-right: 60px; }
+        padding-left: 40px;
+        padding-right: 40px; }
       /* line 43, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_jumbotron.scss */
       .jumbotron h1,
       .jumbotron .h1 {
@@ -4980,7 +4980,7 @@ a.badge:hover, a.badge:focus {
   line-height: 1.428571429;
   background-color: #fff;
   border: 1px solid #f2f2f2;
-  border-radius: 4px;
+  border-radius: 2px;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out; }
@@ -4996,20 +4996,20 @@ a.badge:hover, a.badge:focus {
   /* line 27, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_thumbnails.scss */
   .thumbnail .caption {
     padding: 9px;
-    color: #0072c6; }
+    color: #191919; }
 
 /* line 34, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_thumbnails.scss */
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: #003380; }
+  border-color: #0072c6; }
 
 /* line 9, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_alerts.scss */
 .alert {
   padding: 15px;
   margin-bottom: 21px;
   border: 1px solid transparent;
-  border-radius: 4px; }
+  border-radius: 2px; }
   /* line 16, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_alerts.scss */
   .alert h4 {
     margin-top: 0;
@@ -5039,24 +5039,24 @@ a.thumbnail.active {
 
 /* line 57, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_alerts.scss */
 .alert-success {
-  background-color: #003380;
-  border-color: #003380;
+  background-color: #009c3d;
+  border-color: #009c3d;
   color: #fff; }
   /* line 8, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_alerts.scss */
   .alert-success hr {
-    border-top-color: #002967; }
+    border-top-color: #008333; }
   /* line 11, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_alerts.scss */
   .alert-success .alert-link {
     color: #e6e6e6; }
 
 /* line 60, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_alerts.scss */
 .alert-info {
-  background-color: #fefb8d;
-  border-color: #fefb8d;
+  background-color: #003380;
+  border-color: #003380;
   color: #fff; }
   /* line 8, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_alerts.scss */
   .alert-info hr {
-    border-top-color: #fefa74; }
+    border-top-color: #002967; }
   /* line 11, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_alerts.scss */
   .alert-info .alert-link {
     color: #e6e6e6; }
@@ -5101,7 +5101,7 @@ a.thumbnail.active {
   height: 21px;
   margin-bottom: 21px;
   background-color: #f2f2f2;
-  border-radius: 4px;
+  border-radius: 2px;
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); }
 
@@ -5149,7 +5149,7 @@ a.thumbnail.active {
 
 /* line 91, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_progress-bars.scss */
 .progress-bar-success {
-  background-color: #003380; }
+  background-color: #009c3d; }
   /* line 7, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_progress-bar.scss */
   .progress-striped .progress-bar-success {
     background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -5158,7 +5158,7 @@ a.thumbnail.active {
 
 /* line 95, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_progress-bars.scss */
 .progress-bar-info {
-  background-color: #fefb8d; }
+  background-color: #003380; }
   /* line 7, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_progress-bar.scss */
   .progress-striped .progress-bar-info {
     background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -5233,13 +5233,13 @@ a.thumbnail.active {
   border: 1px solid #f2f2f2; }
   /* line 31, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_list-group.scss */
   .list-group-item:first-child {
-    border-top-right-radius: 4px;
-    border-top-left-radius: 4px; }
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px; }
   /* line 34, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_list-group.scss */
   .list-group-item:last-child {
     margin-bottom: 0;
-    border-bottom-right-radius: 4px;
-    border-bottom-left-radius: 4px; }
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px; }
   /* line 40, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_list-group.scss */
   .list-group-item > .badge {
     float: right; }
@@ -5291,7 +5291,7 @@ a.list-group-item {
 /* line 4, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_list-group.scss */
 .list-group-item-success {
   color: #fff;
-  background-color: #003380; }
+  background-color: #009c3d; }
 
 /* line 11, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_list-group.scss */
 a.list-group-item-success {
@@ -5302,7 +5302,7 @@ a.list-group-item-success {
   /* line 18, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_list-group.scss */
   a.list-group-item-success:hover, a.list-group-item-success:focus {
     color: #fff;
-    background-color: #002967; }
+    background-color: #008333; }
   /* line 23, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_list-group.scss */
   a.list-group-item-success.active, a.list-group-item-success.active:hover, a.list-group-item-success.active:focus {
     color: #fff;
@@ -5312,7 +5312,7 @@ a.list-group-item-success {
 /* line 4, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_list-group.scss */
 .list-group-item-info {
   color: #fff;
-  background-color: #fefb8d; }
+  background-color: #003380; }
 
 /* line 11, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_list-group.scss */
 a.list-group-item-info {
@@ -5323,7 +5323,7 @@ a.list-group-item-info {
   /* line 18, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_list-group.scss */
   a.list-group-item-info:hover, a.list-group-item-info:focus {
     color: #fff;
-    background-color: #fefa74; }
+    background-color: #002967; }
   /* line 23, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_list-group.scss */
   a.list-group-item-info.active, a.list-group-item-info.active:hover, a.list-group-item-info.active:focus {
     color: #fff;
@@ -5387,7 +5387,7 @@ a.list-group-item-danger {
   margin-bottom: 21px;
   background-color: #fff;
   border: 1px solid transparent;
-  border-radius: 4px;
+  border-radius: 2px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05); }
 
@@ -5406,8 +5406,8 @@ a.list-group-item-danger {
 .panel-heading {
   padding: 10px 15px;
   border-bottom: 1px solid transparent;
-  border-top-right-radius: 3px;
-  border-top-left-radius: 3px; }
+  border-top-right-radius: 1px;
+  border-top-left-radius: 1px; }
   /* line 27, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_panels.scss */
   .panel-heading > .dropdown .dropdown-toggle {
     color: inherit; }
@@ -5427,8 +5427,8 @@ a.list-group-item-danger {
   padding: 10px 15px;
   background-color: #f2f2f2;
   border-top: 1px solid #f2f2f2;
-  border-bottom-right-radius: 3px;
-  border-bottom-left-radius: 3px; }
+  border-bottom-right-radius: 1px;
+  border-bottom-left-radius: 1px; }
 
 /* line 59, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .list-group {
@@ -5440,13 +5440,13 @@ a.list-group-item-danger {
   /* line 69, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_panels.scss */
   .panel > .list-group:first-child .list-group-item:first-child {
     border-top: 0;
-    border-top-right-radius: 3px;
-    border-top-left-radius: 3px; }
+    border-top-right-radius: 1px;
+    border-top-left-radius: 1px; }
   /* line 76, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_panels.scss */
   .panel > .list-group:last-child .list-group-item:last-child {
     border-bottom: 0;
-    border-bottom-right-radius: 3px;
-    border-bottom-left-radius: 3px; }
+    border-bottom-right-radius: 1px;
+    border-bottom-left-radius: 1px; }
 
 /* line 85, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_panels.scss */
 .panel-heading + .list-group .list-group-item:first-child {
@@ -5464,8 +5464,8 @@ a.list-group-item-danger {
 /* line 105, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .table:first-child,
 .panel > .table-responsive:first-child > .table:first-child {
-  border-top-right-radius: 3px;
-  border-top-left-radius: 3px; }
+  border-top-right-radius: 1px;
+  border-top-left-radius: 1px; }
   /* line 112, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_panels.scss */
   .panel > .table:first-child > thead:first-child > tr:first-child td:first-child,
   .panel > .table:first-child > thead:first-child > tr:first-child th:first-child,
@@ -5475,7 +5475,7 @@ a.list-group-item-danger {
   .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:first-child,
   .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:first-child,
   .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:first-child {
-    border-top-left-radius: 3px; }
+    border-top-left-radius: 1px; }
   /* line 116, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_panels.scss */
   .panel > .table:first-child > thead:first-child > tr:first-child td:last-child,
   .panel > .table:first-child > thead:first-child > tr:first-child th:last-child,
@@ -5485,12 +5485,12 @@ a.list-group-item-danger {
   .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:last-child,
   .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:last-child,
   .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:last-child {
-    border-top-right-radius: 3px; }
+    border-top-right-radius: 1px; }
 /* line 124, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .table:last-child,
 .panel > .table-responsive:last-child > .table:last-child {
-  border-bottom-right-radius: 3px;
-  border-bottom-left-radius: 3px; }
+  border-bottom-right-radius: 1px;
+  border-bottom-left-radius: 1px; }
   /* line 131, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_panels.scss */
   .panel > .table:last-child > tbody:last-child > tr:last-child td:first-child,
   .panel > .table:last-child > tbody:last-child > tr:last-child th:first-child,
@@ -5500,7 +5500,7 @@ a.list-group-item-danger {
   .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:first-child,
   .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:first-child,
   .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:first-child {
-    border-bottom-left-radius: 3px; }
+    border-bottom-left-radius: 1px; }
   /* line 135, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_panels.scss */
   .panel > .table:last-child > tbody:last-child > tr:last-child td:last-child,
   .panel > .table:last-child > tbody:last-child > tr:last-child th:last-child,
@@ -5510,11 +5510,11 @@ a.list-group-item-danger {
   .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:last-child,
   .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:last-child,
   .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:last-child {
-    border-bottom-right-radius: 3px; }
+    border-bottom-right-radius: 1px; }
 /* line 142, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .panel-body + .table,
 .panel > .panel-body + .table-responsive {
-  border-top: 1px solid #f2f2f2; }
+  border-top: 1px solid #d8d8d8; }
 /* line 146, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .table > tbody:first-child > tr:first-child th,
 .panel > .table > tbody:first-child > tr:first-child td {
@@ -5582,7 +5582,7 @@ a.list-group-item-danger {
   /* line 202, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_panels.scss */
   .panel-group .panel {
     margin-bottom: 0;
-    border-radius: 4px; }
+    border-radius: 2px; }
     /* line 205, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_panels.scss */
     .panel-group .panel + .panel {
       margin-top: 5px; }
@@ -5601,22 +5601,22 @@ a.list-group-item-danger {
 
 /* line 226, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_panels.scss */
 .panel-default {
-  border-color: #f2f2f2; }
+  border-color: #d8d8d8; }
   /* line 6, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_panels.scss */
   .panel-default > .panel-heading {
-    color: #0072c6;
-    background-color: #f2f2f2;
-    border-color: #f2f2f2; }
+    color: #191919;
+    background-color: #d8d8d8;
+    border-color: #d8d8d8; }
     /* line 11, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_panels.scss */
     .panel-default > .panel-heading + .panel-collapse > .panel-body {
-      border-top-color: #f2f2f2; }
+      border-top-color: #d8d8d8; }
     /* line 14, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_panels.scss */
     .panel-default > .panel-heading .badge {
-      color: #f2f2f2;
-      background-color: #0072c6; }
+      color: #d8d8d8;
+      background-color: #191919; }
   /* line 20, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_panels.scss */
   .panel-default > .panel-footer + .panel-collapse > .panel-body {
-    border-bottom-color: #f2f2f2; }
+    border-bottom-color: #d8d8d8; }
 
 /* line 229, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_panels.scss */
 .panel-primary {
@@ -5639,41 +5639,41 @@ a.list-group-item-danger {
 
 /* line 232, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_panels.scss */
 .panel-success {
-  border-color: #003380; }
+  border-color: #009c3d; }
   /* line 6, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_panels.scss */
   .panel-success > .panel-heading {
+    color: #fff;
+    background-color: #009c3d;
+    border-color: #009c3d; }
+    /* line 11, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_panels.scss */
+    .panel-success > .panel-heading + .panel-collapse > .panel-body {
+      border-top-color: #009c3d; }
+    /* line 14, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_panels.scss */
+    .panel-success > .panel-heading .badge {
+      color: #009c3d;
+      background-color: #fff; }
+  /* line 20, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_panels.scss */
+  .panel-success > .panel-footer + .panel-collapse > .panel-body {
+    border-bottom-color: #009c3d; }
+
+/* line 235, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_panels.scss */
+.panel-info {
+  border-color: #003380; }
+  /* line 6, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_panels.scss */
+  .panel-info > .panel-heading {
     color: #fff;
     background-color: #003380;
     border-color: #003380; }
     /* line 11, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_panels.scss */
-    .panel-success > .panel-heading + .panel-collapse > .panel-body {
+    .panel-info > .panel-heading + .panel-collapse > .panel-body {
       border-top-color: #003380; }
     /* line 14, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_panels.scss */
-    .panel-success > .panel-heading .badge {
+    .panel-info > .panel-heading .badge {
       color: #003380;
       background-color: #fff; }
   /* line 20, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_panels.scss */
-  .panel-success > .panel-footer + .panel-collapse > .panel-body {
-    border-bottom-color: #003380; }
-
-/* line 235, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_panels.scss */
-.panel-info {
-  border-color: #fefb8d; }
-  /* line 6, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_panels.scss */
-  .panel-info > .panel-heading {
-    color: #fff;
-    background-color: #fefb8d;
-    border-color: #fefb8d; }
-    /* line 11, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_panels.scss */
-    .panel-info > .panel-heading + .panel-collapse > .panel-body {
-      border-top-color: #fefb8d; }
-    /* line 14, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_panels.scss */
-    .panel-info > .panel-heading .badge {
-      color: #fefb8d;
-      background-color: #fff; }
-  /* line 20, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_panels.scss */
   .panel-info > .panel-footer + .panel-collapse > .panel-body {
-    border-bottom-color: #fefb8d; }
+    border-bottom-color: #003380; }
 
 /* line 238, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_panels.scss */
 .panel-warning {
@@ -5746,7 +5746,7 @@ a.list-group-item-danger {
   margin-bottom: 20px;
   background-color: #f2f2f2;
   border: 1px solid transparent;
-  border-radius: 4px;
+  border-radius: 2px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05); }
   /* line 15, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_wells.scss */
@@ -5757,12 +5757,12 @@ a.list-group-item-danger {
 /* line 22, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_wells.scss */
 .well-lg {
   padding: 24px;
-  border-radius: 6px; }
+  border-radius: 4px; }
 
 /* line 26, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_wells.scss */
 .well-sm {
   padding: 9px;
-  border-radius: 3px; }
+  border-radius: 0px; }
 
 /* line 6, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_close.scss */
 .close {
@@ -5836,7 +5836,7 @@ button.close {
   background-color: #fff;
   border: 1px solid #999;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 6px;
+  border-radius: 4px;
   -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
   box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
   background-clip: padding-box;
@@ -5968,7 +5968,7 @@ button.close {
   text-align: center;
   text-decoration: none;
   background-color: rgba(0, 0, 0, 0.9);
-  border-radius: 4px; }
+  border-radius: 2px; }
 
 /* line 35, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_tooltip.scss */
 .tooltip-arrow {
@@ -6045,7 +6045,7 @@ button.close {
   background-clip: padding-box;
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 6px;
+  border-radius: 4px;
   -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   white-space: normal; }
@@ -6071,7 +6071,7 @@ button.close {
   line-height: 18px;
   background-color: #f7f7f7;
   border-bottom: 1px solid #ebebeb;
-  border-radius: 5px 5px 0 0; }
+  border-radius: 3px 3px 0 0; }
 
 /* line 43, /Users/tero/.rvm/gems/ruby-2.1.3@global/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_popovers.scss */
 .popover-content {
@@ -6628,53 +6628,63 @@ button.close {
 /* line 14, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
 .navbar-default .badge {
   background-color: #fff;
-  color: #0072c6; }
+  color: #d8d8d8; }
 
 /* line 22, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
 .navbar-inverse .badge {
   background-color: #fff;
-  color: #003380; }
+  color: #0072c6; }
 
 /* line 28, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
 .navbar-brand {
-  padding: 18.5px 15px 20.5px; }
+  padding: 18.5px 15px 20.5px;
+  font-weight: 700;
+  font-family: "ff-karbid-slab-web-pro", Helvetica, Arial, sans-serif; }
 
-/* line 33, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
+/* line 35, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
+.btn-lg, .btn-group-lg > .btn {
+  padding: 10px 20px; }
+
+/* line 39, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
 .btn:active {
   -webkit-box-shadow: none;
   box-shadow: none; }
 
-/* line 37, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
+/* line 43, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
 .btn-group.open .dropdown-toggle {
   -webkit-box-shadow: none;
   box-shadow: none; }
 
-/* line 43, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
+/* line 49, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
 .text-primary,
 .text-primary:hover {
   color: #0072c6; }
 
-/* line 48, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
+/* line 54, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
 .text-success,
 .text-success:hover {
-  color: #003380; }
+  color: #009c3d; }
 
-/* line 53, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
+/* line 59, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
 .text-danger,
 .text-danger:hover {
   color: #ffc61e; }
 
-/* line 58, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
+/* line 64, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
 .text-warning,
 .text-warning:hover {
   color: #f8d362; }
 
-/* line 63, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
+/* line 69, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
 .text-info,
 .text-info:hover {
-  color: #fefb8d; }
+  color: #003380; }
 
-/* line 77, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
+/* line 74, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
+.label {
+  padding: .2em .4em .2em .4em; }
+
+/* line 87, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
 table .success,
 table .warning,
 table .danger,
@@ -6684,7 +6694,7 @@ table .info,
 .table .danger,
 .table .info {
   color: #fff; }
-  /* line 83, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
+  /* line 93, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
   table .success a,
   table .warning a,
   table .danger a,
@@ -6694,7 +6704,7 @@ table .info,
   .table .danger a,
   .table .info a {
     color: #fff; }
-/* line 88, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
+/* line 98, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
 table > thead > tr > th,
 table > tbody > tr > th,
 table > tfoot > tr > th,
@@ -6709,28 +6719,28 @@ table > tfoot > tr > td,
 .table > tfoot > tr > td {
   border: none; }
 
-/* line 99, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
+/* line 109, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
 .table-bordered > thead > tr > th,
 .table-bordered > tbody > tr > th,
 .table-bordered > tfoot > tr > th,
 .table-bordered > thead > tr > td,
 .table-bordered > tbody > tr > td,
 .table-bordered > tfoot > tr > td {
-  border: 1px solid #f2f2f2; }
+  border: 1px solid #d8d8d8; }
 
-/* line 110, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
+/* line 120, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
 .form-control,
 input {
   border-width: 2px;
   -webkit-box-shadow: none;
   box-shadow: none; }
-  /* line 115, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
+  /* line 125, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
   .form-control:focus,
   input:focus {
     -webkit-box-shadow: none;
     box-shadow: none; }
 
-/* line 121, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
+/* line 131, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
 .has-warning .help-block,
 .has-warning .control-label,
 .has-warning .radio,
@@ -6739,15 +6749,15 @@ input {
 .has-warning .checkbox-inline,
 .has-warning .form-control-feedback {
   color: #f8d362; }
-/* line 131, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
+/* line 141, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
 .has-warning .form-control,
 .has-warning .form-control:focus {
   border: 2px solid #f8d362; }
-/* line 136, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
+/* line 146, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
 .has-warning .input-group-addon {
   border-color: #f8d362; }
 
-/* line 142, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
+/* line 152, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
 .has-error .help-block,
 .has-error .control-label,
 .has-error .radio,
@@ -6756,15 +6766,15 @@ input {
 .has-error .checkbox-inline,
 .has-error .form-control-feedback {
   color: #ffc61e; }
-/* line 152, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
+/* line 162, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
 .has-error .form-control,
 .has-error .form-control:focus {
   border: 2px solid #ffc61e; }
-/* line 157, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
+/* line 167, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
 .has-error .input-group-addon {
   border-color: #ffc61e; }
 
-/* line 163, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
+/* line 173, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
 .has-success .help-block,
 .has-success .control-label,
 .has-success .radio,
@@ -6772,70 +6782,83 @@ input {
 .has-success .radio-inline,
 .has-success .checkbox-inline,
 .has-success .form-control-feedback {
-  color: #003380; }
-/* line 173, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
+  color: #009c3d; }
+/* line 183, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
 .has-success .form-control,
 .has-success .form-control:focus {
-  border: 2px solid #003380; }
-/* line 178, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
+  border: 2px solid #009c3d; }
+/* line 188, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
 .has-success .input-group-addon {
-  border-color: #003380; }
+  border-color: #009c3d; }
 
-/* line 186, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
+/* line 196, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
 .nav .open > a,
 .nav .open > a:hover,
 .nav .open > a:focus {
   border-color: transparent; }
 
-/* line 194, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
+/* line 204, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
 .pager a,
 .pager a:hover {
   color: #fff; }
-/* line 200, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
+/* line 210, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
 .pager .disabled > a, .pager .disabled > a:hover, .pager .disabled > a:focus, .pager .disabled > span {
-  background-color: #0051cc; }
+  background-color: #00e95b; }
 
-/* line 211, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
+/* line 221, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
 .close {
   color: #fff;
   text-decoration: none;
   opacity: 0.4; }
-  /* line 216, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
+  /* line 226, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
   .close:hover, .close:focus {
     color: #fff;
     opacity: 1; }
 
-/* line 225, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
-.alert .alert-link {
-  color: #fff;
-  text-decoration: underline; }
-
 /* line 233, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
+.alert {
+  font-family: "ff-karbid-slab-web-pro", Helvetica, Arial, sans-serif; }
+  /* line 236, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
+  .alert .alert-link {
+    color: #fff;
+    text-decoration: underline; }
+
+/* line 244, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
 .progress {
   height: 10px;
   -webkit-box-shadow: none;
   box-shadow: none; }
-  /* line 236, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
+  /* line 247, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
   .progress .progress-bar {
     font-size: 10px;
     line-height: 10px; }
 
-/* line 244, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
+/* line 256, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
+.list-group-item-heading {
+  text-transform: uppercase;
+  font-family: "ff-karbid-slab-web-pro", Helvetica, Arial, sans-serif; }
+
+/* line 264, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
 .well {
   -webkit-box-shadow: none;
   box-shadow: none; }
 
-/* line 249, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
+/* line 269, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
 .panel-default .close {
-  color: #0072c6; }
+  color: #191919; }
 
-/* line 255, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
+/* line 274, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
+.panel-title {
+  text-transform: uppercase;
+  font-family: "ff-karbid-slab-web-pro", Helvetica, Arial, sans-serif; }
+
+/* line 281, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
 .modal .close {
-  color: #0072c6; }
+  color: #191919; }
 
-/* line 260, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
+/* line 286, /Users/tero/Documents/Sites/bootstrap.hel.fi/source/stylesheets/bootstrap-hel/_theme.scss */
 .popover {
-  color: #0072c6; }
+  color: #191919; }
 
 /*
  
